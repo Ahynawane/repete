@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>repete 8</title>
+</head>
+
+<body>
+    <script>
+        let maior = 0
+        let menor = 0
+        let zero = 0
+        let num = 0
+        let i = 1
+       
+
+        while(i <= 5){
+            num = Number(prompt("digite 5 números"))
+            if(num > 0 ){
+                maior++
+                
+            }else if(num < 0){
+                menor++
+                
+            }else{
+                zero++
+                
+            }
+            
+            i++
+
+        }
+
+        document.write("há ", maior, " números positivos <br>")
+        document.write("há ", menor, " números negativos<br>")
+        document.write("há ", zero, " números iguais a zero<br>")
+        
+    </script>
+</body>
+
+</html>
